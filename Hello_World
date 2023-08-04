@@ -1,0 +1,45 @@
+# Method 1  Direct Print String
+print ("Method 1 : Direct Print Method")
+print ("------------------------------")
+print ("Hello World\n")
+
+# Method 2 Print via Variable
+message="Hello World"
+print ("Method 2 : Via Variable Method")
+print ("------------------------------")
+print (message+"\n")
+
+# Method 3 Print via concatination of two Variables
+word1="Hello"
+word2="World"
+print ("Method 3 : Via Concatination Method")
+print ("-----------------------------------")
+print (word1 +" "+ word2 +"\n")
+
+# Method 4 Print via String Format Method
+word1="Hello"
+word2="World"
+print ("Method 4 : Via String Format Method")
+print ("-----------------------------------")
+print ("{} {}".format(word1,word2)+"\n")
+
+# Method 5 Print via FString Method
+word1="Hello"
+word2="World"
+print ("Method 5 : Via FString Method")
+print ("-----------------------------")
+print(f"{word1} {word2}"+"\n")
+
+# Method 6 Print via using List Method
+words=["Hello","World"]
+message= " ".join(words)
+print ("Method 6 : Via List Values Method")
+print ("---------------------------------")
+print(message +"\n")
+
+# Method 7 Print via using each character Method
+character=['H','e','l','l','o',' ','W','o','r','l','d']
+message= "".join(character)
+print ("Method 7 : Via Single Character Joining Method")
+print ("----------------------------------------------")
+print(message +"\n")
